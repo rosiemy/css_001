@@ -9,6 +9,12 @@ header {
 
 nav {
   background-color: #A2D1C2;
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
 }
 
 main {
@@ -20,10 +26,11 @@ footer {
   background-color: #CEAF8B;
 }
 
-li {
+/* Comment out existing styling for li element */
+/* li {
   display: inline-block;
   width: 100px;
-}
+} */
 
 h1 {
   text-align: center;
@@ -33,4 +40,23 @@ h1 {
 
 p {
   line-height: 1.5;
+}
+
+/* Style the grid class */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  row-gap: 20px;
+}
+
+/* Style the images in the grid class */
+.grid img {
+  width: 100%;
+}
+
+/* Style the flex class */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
